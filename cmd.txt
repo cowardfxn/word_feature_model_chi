@@ -1,0 +1,5 @@
+#!/bin/bash
+
+split -b 10m total_word_feature_extractor_zh.dat ./word_feature_chi
+
+cat word_feature_chi* >word_feature_chi.bin
